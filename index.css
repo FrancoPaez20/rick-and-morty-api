@@ -151,7 +151,7 @@
 	position: absolute;
 	right: 1rem;
 	top: 1rem;
-	font-size: 2rem;
+	font-size: 4rem;
 	color: red;
 	z-index: 1;
 	cursor: pointer;
@@ -160,6 +160,7 @@
 .pop-up{
 	min-height: 90%;
 	width: 90%;
+	max-width: 800px;
 	backdrop-filter: blur(50px);
 	background-color: rgba(250, 250, 250, 0.3);
 	display: flex;
@@ -180,6 +181,7 @@
 .pop-up h2{
 	font-size: 2rem;
 	font-weight: 800;
+	margin-top: 1rem;
 }
 
 .pop-up p{
